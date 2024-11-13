@@ -1,7 +1,7 @@
 # MySkibidi
 
 ```
-1.. Splash Screen
+1. Splash Screen
 • Animasi logo brand
 • Durasi 2-3 detik
 • Transisi fade ke login screen
