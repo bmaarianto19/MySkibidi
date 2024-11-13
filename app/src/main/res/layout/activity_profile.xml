@@ -1,0 +1,125 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFC0CB">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tvUserAccountTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Account"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Foto Profil -->
+    <ImageView
+        android:id="@+id/ivProfilePicture"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:src="@drawable/Profile"
+    android:layout_marginBottom="20dp"
+    android:scaleType="centerCrop"/>
+
+    <!-- Username -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username:"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginEnd="10dp" />
+
+        <TextView
+            android:id="@+id/tvUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bima Aulia"
+        android:textSize="16sp"
+        android:textColor="#000000" />
+
+    </LinearLayout>
+
+    <!-- Nomor Telepon -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nomor Telepon:"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginEnd="10dp" />
+
+        <TextView
+            android:id="@+id/tvPhoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="081234567890"
+        android:textSize="16sp"
+        android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/btnChangePhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:background="#4CAF50"
+            android:layout_marginStart="20dp" />
+    </LinearLayout>
+
+    <!-- Saldo -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saldo:"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginEnd="10dp" />
+
+        <TextView
+            android:id="@+id/tvBalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp50.000"
+        android:textSize="16sp"
+        android:textColor="#000000" />
+    </LinearLayout>
+
+    <!-- Tombol Edit Profil -->
+    <Button
+        android:id="@+id/btnEditProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:background="#4CAF50" />
+</LinearLayout>
