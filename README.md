@@ -1,5 +1,6 @@
 # MySkibidi
 
+```
 1.. Splash Screen
 • Animasi logo brand
 • Durasi 2-3 detik
@@ -31,3 +32,4 @@
 • Pengaturan akun
 • Riwayat transaksi
 • Help center
+```
